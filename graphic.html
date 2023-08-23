@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphic cards</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="containergraph">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a class="toppart" href="index.html">Home</a></li>
+            <li><a class="toppart" href="graphic.html">Graphic Cards</a></li>
+            <li><a class="toppart" href="mobo.html">Motherboards</a></li>
+            <li><a class="toppart" href="peri.html">Peripherals</a></li>
+            <li><a class="toppart" href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="images/cart.png" width="30px" height="30px"
+        /></a>
+        <img src="images/menu.png" onclick="menutoggle()" class="menu-icon" />
+      </div>
+    </div>
+
+    <!------------------Title------------------->
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Graphic Cards</h2>
+        <select>
+          <option>Default Sorting</option>
+          <option>Sort by price</option>
+          <option>Sort by popularity</option>
+          <option>Sort by rating</option>
+          <option>Sort by sale</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <a href="rtx.html"><img src="images/4090.png" alt="" /></a>
+          <h4><a href="rtx.html">RTX 4090 MSI Gaming Trio</a></h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>P124,700</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/rtx-4070.png" />
+          <h4>RTX 4070 TI</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P58,740</p>
+        </div>
+        <div class="col-4">
+          <img src="images/rtx-40701.png" />
+          <h4>RTX 4070</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P42,790</p>
+        </div>
+        <div class="col-4">
+          <img src="images/rx-7900.jpg" />
+          <h4>RX 7900</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>P66,695</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <img src="images/rx-6650XT.png" />
+          <h4>RX 6650 XT</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>P16,750</p>
+        </div>
+        <div class="col-4">
+          <img src="images/rx-6600.jpg" />
+          <h4>RX 6600</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P13,595</p>
+        </div>
+        <div class="col-4">
+          <img src="images/rtx-2080super.jfif" />
+          <h4>RTX 2080 Super</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P48,280</p>
+        </div>
+        <div class="col-4">
+          <img src="images/rtx-4060ti.jpg" />
+          <h4>RTX 4060TI</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>P29,449</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <img src="images/rtx-4060.jfif" />
+          <h4>RTX 4060</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>17,999</p>
+        </div>
+        <div class="col-4">
+          <img src="images/3090.png" />
+          <h4>RTX 3090</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P67,789</p>
+        </div>
+        <div class="col-4">
+          <img src="images/rtx-3080ti.jpg" />
+          <h4>RTX 3080TI</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P49,388</p>
+        </div>
+        <div class="col-4">
+          <img src="images/rtx-2080ti.jpg" />
+          <h4>RTX 2080TI</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>P24,000</p>
+        </div>
+      </div>
+
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+      </div>
+    </div>
+
+    <!-------------------Footer------------------------>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col1">
+            <h3>Download our App</h3>
+            <p>Download app for Android and ios mobile phones.</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" />
+              <img src="images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col2">
+            <img src="images/logo.png" />
+            <p>
+              To bring you the cheapest price and greatest deals for your
+              computer and gaming needs!
+            </p>
+          </div>
+          <div class="footer-col3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li></li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2020 - WendZ</p>
+      </div>
+    </div>
+
+    <!-------------js for toggle menu-------------->
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

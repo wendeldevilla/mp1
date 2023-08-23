@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motherboards</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="containergraph">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a class="toppart" href="index.html">Home</a></li>
+            <li><a class="toppart" href="graphic.html">Graphic Cards</a></li>
+            <li><a class="toppart" href="mobo.html">Motherboards</a></li>
+            <li><a class="toppart" href="peri.html">Peripherals</a></li>
+            <li><a class="toppart" href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="images/cart.png" width="30px" height="30px"
+        /></a>
+        <img src="images/menu.png" onclick="menutoggle()" class="menu-icon" />
+      </div>
+    </div>
+
+    <!------------------Title------------------->
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Motherboards</h2>
+        <select>
+          <option>Default Sorting</option>
+          <option>Sort by price</option>
+          <option>Sort by popularity</option>
+          <option>Sort by rating</option>
+          <option>Sort by sale</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <a href="aorus.html"><img src="images/rog.jpg" alt="" /></a>
+          <h4><a href="aorus.html">ROG Crosshair VII</a></h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>P33,780</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/taichi.png" />
+          <h4>ASROCK B550 Taichi</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P33,999</p>
+        </div>
+        <div class="col-4">
+          <img src="images/a520-aorus.png" />
+          <h4>Aorus A520</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P9,560</p>
+        </div>
+        <div class="col-4">
+          <img src="images/a520m.png" />
+          <h4>ASROCK A520M ITX</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>P6,498</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <img src="images/x570m.png" />
+          <h4>Aorus X570 Master</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>P15,295</p>
+        </div>
+        <div class="col-4">
+          <img src="images/b550e.jpg" />
+          <h4>ROG Strix B550E</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P11,860</p>
+        </div>
+        <div class="col-4">
+          <img src="images/b650.jpg" />
+          <h4>TUF-Gaming B760</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P14,495</p>
+        </div>
+        <div class="col-4">
+          <img src="images/b660m.png" />
+          <h4>MSI Mag B660 Mortar</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>P10,899</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <img src="images/mortar.jpg" />
+          <h4>MSI B550M Mortar</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>P9,919</p>
+        </div>
+        <div class="col-4">
+          <img src="images/tomahawk.png" />
+          <h4>Mag B660 Tomahawk</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P5,734</p>
+        </div>
+        <div class="col-4">
+          <img src="images/x570.jpg" />
+          <h4>MSI MPG X570</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>P10,400</p>
+        </div>
+        <div class="col-4">
+          <img src="images/z690.jpg" />
+          <h4>Z690 Aorus Pro</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>P16,999</p>
+        </div>
+      </div>
+
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+      </div>
+    </div>
+
+    <!-------------------Footer------------------------>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col1">
+            <h3>Download our App</h3>
+            <p>Download app for Android and ios mobile phones.</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" />
+              <img src="images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col2">
+            <img src="images/logo.png" />
+            <p>
+              To bring you the cheapest price and greatest deals for your
+              computer and gaming needs!
+            </p>
+          </div>
+          <div class="footer-col3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li></li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2020 - WendZ</p>
+      </div>
+    </div>
+
+    <!-------------js for toggle menu-------------->
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
