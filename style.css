@@ -361,8 +361,8 @@ small {
   text-align: center;
 }
 
-/*-------media-query-for-max-width-800---------*/
-@media only screen and (max-width: 800px) {
+/*-------media-query-for-max-width-768---------*/
+@media only screen and (max-width: 768px) {
   nav ul {
     position: absolute;
     top: 70px;
@@ -396,6 +396,10 @@ small {
 @media only screen and (max-width: 600px) {
   .row {
     text-align: center;
+  }
+
+  .navbar {
+    padding: 0;
   }
 
   .col-1,
